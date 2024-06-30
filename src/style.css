@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.icon-container {
+  position: absolute;
+  right: 10px; /* Adjust as needed */
+  bottom: 10px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100px; */
+}
+
+.ai-icon {
+  cursor: pointer;
+}
+@keyframes grow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
